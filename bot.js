@@ -3522,9 +3522,8 @@ client.on("message", (message) => {
 client.on('guildMemberAdd', member => {
     member.createDM().then(function (channel) {
 return channel.send("")
-    }
-    )}
-	 );
+    })
+     });
 	   client.on("ready", () => {
    
      var guild = client.guilds.get('476443668350369812');
