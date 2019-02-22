@@ -1,3 +1,4 @@
+
 const Discord = require('discord.js');
 const devs = ['389090790984515594'];
 const db = require('quick.db');
@@ -35,7 +36,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 3000 ;
-    var setGame = ['$help','Bot By Youssef'];
+    var setGame = ['$help','bot by Youssef'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -296,7 +297,7 @@ client.on('message', function(msg) {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``INFO 3bker Community ©`` ')
+            .setTitle('``INFO 𝔽ℝ𝕀𝔼ℕ𝔻𝕊 ♥ Community ©`` ')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -306,7 +307,7 @@ client.on('message', function(msg) {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ ! ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | 3bker')
+			      .setFooter('By |Abram')
     })
 }
 });
@@ -393,7 +394,7 @@ client.on('message', message => {
             message.channel.send({embed: {
                 color: 3447003,
                 author: {
-                  name: '3bker Community ©\'s translator',
+                  name: '𝔽ℝ𝕀𝔼ℕ𝔻𝕊 ♥ Community ©\'s translator',
                   icon_url: client.user.avatarURL
                 },
                 fields: [{
@@ -404,7 +405,7 @@ client.on('message', message => {
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "3bker Community ©"
+                  text: "𝔽ℝ𝕀𝔼ℕ𝔻𝕊 ♥ Community ©"
                 }
             }}
             )
@@ -743,7 +744,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : 3bker")
+     .setFooter("By : 𝔽ℝ𝕀𝔼ℕ𝔻𝕊 ♥ ")
                                                 
 
 message.channel.send(embed);
@@ -1907,7 +1908,7 @@ client.on('guildDelete', guild => {
      .setTitle('Click Here To Add Bot .!')
      .setURL('https://discordapp.com/oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591')
   .setDescription(`**
-  Server Kicked 3bker Community © :cry:
+  Server Kicked 𝔽ℝ𝕀𝔼ℕ𝔻𝕊 ♥ © :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
 client.channels.get("474127377245667328").sendEmbed(embed)
@@ -2736,7 +2737,7 @@ client.on('message', async msg => { // eslint-disable-line
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 //by ,$ ReBeL ء , ??#4777 'CODES SERVER'
-					.setFooter("3bker Community ©")
+					.setFooter("𝔽ℝ𝕀𝔼ℕ𝔻𝕊 ♥ Community ©")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
@@ -2939,33 +2940,33 @@ client.on('message', message => {
 
 
 if (message.content.startsWith(prefix + 'playing')) {
-if (message.author.id !== '441358437025316864') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '434845976050794516') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setGame(argresult);
     message.channel.sendMessage(`**${argresult}** : تم تغيير الحالة`)
 } else
 
 if (message.content.startsWith(prefix + 'streem')) {
-if (message.author.id !== '441358437025316864') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '434845976050794516') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setGame(argresult, "http://twitch.tv/y04zgamer");
     message.channel.sendMessage(`**${argresult}** :تم تغيير الحالة الى ستريمنج`)
 } else
 
 if (message.content.startsWith(prefix + 'setname')) {
-if (message.author.id !== '441358437025316864') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '434845976050794516') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
   client.user.setUsername(argresult).then
       message.channel.sendMessage(`**${argresult}** : تم تغير الأسم`)
   return message.reply("**لا تستطيع تغير الأسم الا بعد ساعتين**");
 } else
 
 if (message.content.startsWith(prefix + 'setavatar')) {
-if (message.author.id !== '441358437025316864') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '434845976050794516') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setAvatar(argresult);
     message.channel.sendMessage(`**${argresult}** : تم تغير صورة البوت`);
 } else
 
 
 if (message.content.startsWith(prefix + 'watching')) {
-if (message.author.id !== '441358437025316864') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '434845976050794516') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
     client.user.setActivity(argresult, {type : 'watching'});
  message.channel.sendMessage(`**${argresult}** : تم تغيير الووتشينق الى`)
 }
@@ -2975,6 +2976,7 @@ client.on('message', async message => {
   let args = messageArray.slice(1);
   if(message.content.startsWith(prefix + "invinfo")) {
     if(!args) return message.reply('**حدد اسم دعوة**');
+	
     message.guild.fetchInvites().then(i => {
       let inv = i.get(args[0]);
       if(!inv) return message.reply(`**لم اقدر على ايجاد ${args}**`);
@@ -3524,4 +3526,183 @@ client.on('guildMemberAdd', member => {
 return channel.send("")
     }
     )});
-client.login("NTQ4MzIxNDAwMDYzMjYyNzMw.D1DomA.WIqFWS60zxBYqFq9zgNJuemsbDg")
+client.on("message", async message => {
+    var command = message.content.split(" ")[0];
+    command = command.slice(prefix.length);
+        if(!message.channel.guild) return;
+            var args = message.content.split(" ").slice(1).join(" ");
+            if(command == "bc") {
+                if(!message.member.hasPermission("ADMINISTRATOR")) {
+                    return message.channel.send("**للأسف لا تمتلك صلاحية `ADMINISTRATOR`**");
+                }
+                    if(!args) {
+                        return message.reply("**يجب عليك كتابة كلمة او جملة لإرسال البرودكاست**");
+                    }
+                        message.channel.send(`**هل أنت متأكد من إرسالك البرودكاست؟\nمحتوى البرودكاست: \`${args}\`**`).then(m => {
+                            m.react("✅")
+                            .then(() => m.react("❌"));
+ 
+                            let yesFilter = (reaction, user) => reaction.emoji.name == "✅" && user.id == message.author.id;
+                            let noFiler = (reaction, user) => reaction.emoji.name == "❌" && user.id == message.author.id;
+ 
+                            let yes = m.createReactionCollector(yesFilter);
+                            let no = m.createReactionCollector(noFiler);
+ 
+                            yes.on("collect", v => {
+                                m.delete();
+                                    message.channel.send(`:ballot_box_with_check: | Done ... The Broadcast Message Has Been Sent For ${message.guild.memberCount} Members`).then(msg => msg.delete(5000));
+                                        message.guild.members.forEach(member => {
+                                            let bc = new Discord.RichEmbed()
+                                            .setColor("RANDOM")
+                                            .setThumbnail(message.author.avatarURL)
+                                            .setTitle("Broadcast")
+                                            .addField("Server", message.guild.name)
+                                            .addField("Sender", message.author.username)
+                                            .addField("Message", args);
+ 
+                                            member.sendEmbed(bc);
+                                        });
+                        });
+                        no.on("collect", v => {
+                            m.delete();
+                            message.channel.send("**Broadcast Canceled.**").then(msg => msg.delete(3000));
+                        });
+                           
+                        });
+            }
+            if(command == "bc") {
+                if(!message.member.hasPermission("ADMINISTRATOR")) {
+                    return message.channel.send("**للأسف لا تمتلك صلاحية `ADMINISTRATOR`**");
+                }
+                    if(!args) {
+                        return message.reply("**يجب عليك كتابة كلمة او جملة لإرسال البرودكاست**");
+                    }
+                        message.channel.send(`**هل أنت متأكد من إرسالك البرودكاست؟\nمحتوى البرودكاست: \`${args}\`**`).then(m => {
+                            m.react("✅")
+                            .then(() => m.react("❌"));
+ 
+                            let yesFilter = (reaction, user) => reaction.emoji.name == "✅" && user.id == message.author.id;
+                            let noFiler = (reaction, user) => reaction.emoji.name == "❌" && user.id == message.author.id;
+ 
+                            let yes = m.createReactionCollector(yesFilter);
+                            let no = m.createReactionCollector(noFiler);
+ 
+                            yes.on("collect", v => {
+                                m.delete();
+                                    message.channel.send(`:ballot_box_with_check: | Done ... The Broadcast Message Has Been Sent For ${message.guild.members.filter(r => r.presence.status !== "offline").size} Members`).then(msg => msg.delete(5000));
+                                        message.guild.members.filter(r => r.presence.status !== "offline").forEach(member => {
+                                            let bco = new Discord.RichEmbed()
+                                            .setColor("RANDOM")
+                                            .setThumbnail(message.author.avatarURL)
+                                            .setTitle("Broadcast")
+                                            .addField("Server", message.guild.name)
+                                            .addField("Sender", message.author.username)
+                                            .addField("Message", args);
+ 
+                                            member.sendEmbed(bco);
+                                        });
+                        });
+                        no.on("collect", v => {
+                            m.delete();
+                            message.channel.send("**Broadcast Canceled.**").then(msg => msg.delete(3000));
+                        });
+                           
+                        });
+            }
+});
+ 
+ 
+ 
+client.on("message", async message => {
+    if(message.content == prefix + "server") {
+        if(!message.channel.guild) return;
+            if(!message.member.hasPermission("MANAGE_GUILD")) {
+                return message.channel.send("ليس لديك الصلآحية الكآفية . :broken_heart:");
+            }
+ 
+                let server = new Discord.RichEmbed()
+                    .setAuthor(message.guild.name)
+                    .setColor("RANDOM")
+                    .setTitle("Server Info :hearts: :sparkles:")
+                    .setDescription(`Members :bust_in_silhouette: : ${message.guild.memberCount}\nOwner :crown: : ${message.guild.owner.user.username}\nServer ID :id: : ${message.guild.id}\nRoles :lock: : ${message.guild.roles.size}\nRegion :earth_africa: : ${message.guild.region.toUpperCase()}`);
+ 
+                    message.channel.sendEmbed(server);
+ 
+    }
+});
+client.on("message", async message => {
+    if(message.content.startsWith(prefix + "banned")) {
+        if(!message.guild) return;
+        message.guild.fetchBans()
+        .then(bans => {
+            let b = bans.size;
+            let bb = bans.map(a => `${a}`).join(" - ");
+            message.channel.send(`**\`${b}\` | ${bb}**`);
+        });
+    }
+});
+client.on("message", async message => {
+    if(message.content.startsWith(prefix + "invite")) {
+        let invite = new Discord.RichEmbed()
+            .setColor("RANDOM")
+            .setAuthor(message.author.username, message.author.displayAvatarURL)
+            .setThumbnail(message.author.avatarURL)
+            .setTitle("**Click Here To Invite The Bot To Your Server :sparkling_heart:**")
+            .setURL(`https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`);
+            message.channel.sendEmbed(invite);
+    }
+});
+
+client.on("message", async message => {
+    if(message.content.startsWith(prefix + "help")) {
+        let help = new Discord.RichEmbed()
+            .setColor("RANDOM")
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`**__برودكاست بوت | Version 1.1__
+            برودكاست عادي : ${prefix}bc
+            دعوة البوت لسيرفرك : ${prefix}invite
+            معلومات عن السيرفر : ${prefix}server
+            برودكاست للأونلاين فقط : ${prefix}bco
+            يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
+            رابط سيرفر الدعم الفني : https://discord.gg/YEXcDXt
+            **`);
+            message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
+    }
+});
+
+      client.on("ready", () => {
+   
+     var guild = client.guilds.get('476443668350369812');
+         setInterval(function(){
+var role = guild.roles.find(role=> role.name === 'disco');
+if(!role) return;
+             role.edit({
+                 color : "RANDOM"
+             });
+         }, 1700)
+});
+
+ 
+client.on("message", message => { //clear
+              var args = message.content.substring(prefix.length).split(" ");
+              if (message.content.startsWith(prefix + "clear")) {
+                  if(!message.channel.guild) return message.reply('**? اسف لكن هذا الامر للسيرفرات فقط **');        
+     if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**?  لا يوجد لديك صلاحية لمسح الشات**');
+          var msg;
+          msg = parseInt();
+       
+        message.channel.fetchMessages({limit: msg}).then(messages => message.channel.bulkDelete(messages)).catch(console.error);
+        message.channel.sendMessage("", {embed: {
+          title: "``تــم مسح الشات ``",
+          color: 0x5016f3,
+          footer: {
+           
+          }
+        }}).then(msg => {msg.delete(3000)});
+                            }
+ 
+       
+});
+
+
+client.login("NTQ4MzIxNDAwMDYzMjYyNzMw.D1EAqw.SMUVoNysheg2PdTCE8oVrRGjEAM")
