@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 3000 ;
-    var setGame = ['@help','Bot By Abram'];
+    var setGame = ['$help','Bot By Youssef'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -3524,4 +3524,4 @@ client.on('guildMemberAdd', member => {
 return channel.send("")
     }
     )});
-client.login("NTQzODQ4MDM4MDk2MTc1MTQ1.D0Chxg.SkvI_9iEBVi1cU9StSvJtAJtVI8")
+client.login("NTQ4MzIxNDAwMDYzMjYyNzMw.D1DomA.WIqFWS60zxBYqFq9zgNJuemsbDg")
