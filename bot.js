@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 3000 ;
-    var setGame = ['$help','Bot By yousef'];
+    var setGame = ['@help','Bot By Abram'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -3522,17 +3522,6 @@ client.on("message", (message) => {
 client.on('guildMemberAdd', member => {
     member.createDM().then(function (channel) {
 return channel.send("")
-    })
-     });
-	   client.on("ready", () => {
-   
-     var guild = client.guilds.get('476443668350369812');
-         setInterval(function(){
-var role = guild.roles.find(role=> role.name === 'disco');
-if(!role) return;
-             role.edit({
-                 color : "RANDOM"
-             });
-         }, 1700)
-});
-client.login("NTQ4MzIxNDAwMDYzMjYyNzMw.D1DomA.WIqFWS60zxBYqFq9zgNJuemsbDg")
+    }
+    )});
+client.login("NTQzODQ4MDM4MDk2MTc1MTQ1.D0Chxg.SkvI_9iEBVi1cU9StSvJtAJtVI8")
