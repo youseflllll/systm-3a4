@@ -1,7 +1,7 @@
 const Discord = require(`discord.js`)
 const dateformat = require('dateformat');
 const bot = new Discord.Client();
-bot.login(`NTIyMDgzOTcwOTIyMzE1Nzk3.DvF0iw.btooTPA0HDZCM9oRR-iUYFxUNPw`);
+bot.login(`NTQ4MzIxNDAwMDYzMjYyNzMw.D1V9Rw.42eNu1JyIxzq_cXPC-0dCJCU9Kw`);
 
 bot.on(`ready`, () => {
   console.log(`Log Bot | 0%`);
